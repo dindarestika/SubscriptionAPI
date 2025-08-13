@@ -1,0 +1,58 @@
+{
+  "info": {
+    "name": "Subscription Platform API",
+    "_postman_id": "c3c2e2b1-7a3f-4b5a-b94a-4b2f1c1b64d5",
+    "description": "Collection untuk mengetes Subscription Platform API di Laravel",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Subscribe Website",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"name\": \"Dinda\",\n    \"email\": \"dindarestika@gmail.com\"\n}"
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/websites/1/subscribe",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "8000",
+          "path": ["api", "websites", "1", "subscribe"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Create Post",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"title\": \"New Post It's August\",\n    \"description\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\"\n}"
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/websites/1/posts",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "8000",
+          "path": ["api", "websites", "1", "posts"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
