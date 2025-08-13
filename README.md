@@ -1,5 +1,4 @@
-Subscription Platform API
-This is a simple subscription platform built with Laravel that allows users to subscribe to websites and receive email notifications when new posts are published.
+Subscription Platform API : This is a simple subscription platform built with Laravel that allows users to subscribe to websites and receive email notifications when new posts are published.
 
 Features
 - RESTful API endpoints for managing posts, and subscriptions
